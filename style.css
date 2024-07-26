@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  font-weight: bolder;
+}
+
+.bg-img {
+  background-image: url(./img/2656380.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  text-transform: capitalize;
+  font-family: "Poppins";
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+  text-shadow: 0px 0px 30px white;
+}
+
+.logonav {
+  display: flex;
+  align-items: center;
+  animation: rotation 10s infinite linear;
+}
+
+.logo-icon {
+  height: 5rem;
+  width: 10rem;
+}
+
+nav ul li:hover {
+  color: #ec1010;
+  text-shadow: 0px 0px 30px #f97316;
+  transition: all;
+  transition-duration: 1s;
+  translate: 0px 10px;
+  scale: 130%;
+}
+
+.head-hpb {
+  padding-top: 12rem;
+  max-width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.head-hpb h1 {
+  font-size: 3.1rem;
+  text-shadow: 0px 0px 30px #ffffff;
+}
+
+.head-hpb p {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.head-hpb button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  border: 2px solid #ec1010;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.head-hpb button:hover {
+  color: black;
+  background-color: #ec1010;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* header complete */
+.main-bg-img {
+  background-image: url(./img/hidden-leaf-village-96kizz8o1c5ev6sf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+
+}
+
+#visible {
+  background-color: #1f2937;
+  width: 100%;
+  color: whitesmoke;
+  min-height: 50vh;
+}
+
+.card {
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0px 0px 30px white;
+}
+
+.card h1:hover {
+  color: #f97316;
+  text-shadow: 0 0px 30px #f97316;
+  scale: 110%;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 20px;
+}
+
+.card1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem;
+}
+
+.card2 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem;
+}
+
+.card3 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem;
+}
+
+.card4 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem;
+}
+
+.invisible {
+  /* color: white; */
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-shadow: 05px 5px 10px white;
+  padding-left: 2rem;
+}
+
+footer {
+  background-color: #1f2937;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot {
+  width: 600px;
+  height: 100px;
+  background-color: #f97316;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  border-radius: 2rem;
+  padding-left: 1rem;
+}
+
+.foot button {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  background-color: #f97316;
+  border: 2px solid white;
+  color: white;
+  border-radius: 1rem;
+}
+
+.foot button:hover {
+  background-color: white;
+  color: #f97316;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.blank {
+  width: 100%;
+  height: 10vh;
+}
+
+.end-img {
+  background-image: url(./img/hidden-leaf-village-96kizz8o1c5ev6sf.jpg);
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+  background-attachment: fixed;
+}
